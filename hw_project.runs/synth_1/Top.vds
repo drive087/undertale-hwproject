@@ -1,0 +1,1227 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun May 31 14:29:56 2020
+# Process ID: 6212
+# Current directory: C:/Users/OS/Desktop/hw_project/hw_project.runs/synth_1
+# Command line: vivado.exe -log Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+# Log file: C:/Users/OS/Desktop/hw_project/hw_project.runs/synth_1/Top.vds
+# Journal file: C:/Users/OS/Desktop/hw_project/hw_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top.tcl -notrace
+Command: synth_design -top Top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20632 
+WARNING: [Synth 8-2611] redeclaration of ansi port character_alive is not allowed [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_bar.v:38]
+WARNING: [Synth 8-976] character_alive has already been declared [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_bar.v:38]
+WARNING: [Synth 8-2654] second declaration of character_alive ignored [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_bar.v:38]
+INFO: [Synth 8-994] character_alive is declared here [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_bar.v:29]
+WARNING: [Synth 8-2611] redeclaration of ansi port monster_alive is not allowed [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_monster_bar.v:36]
+WARNING: [Synth 8-976] monster_alive has already been declared [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_monster_bar.v:36]
+WARNING: [Synth 8-2654] second declaration of monster_alive ignored [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_monster_bar.v:36]
+INFO: [Synth 8-994] monster_alive is declared here [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_monster_bar.v:30]
+WARNING: [Synth 8-2611] redeclaration of ansi port attack is not allowed [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab2.v:39]
+WARNING: [Synth 8-976] attack has already been declared [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab2.v:39]
+WARNING: [Synth 8-2654] second declaration of attack ignored [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab2.v:39]
+INFO: [Synth 8-994] attack is declared here [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab2.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port pangya_damage is not allowed [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab2.v:40]
+WARNING: [Synth 8-976] pangya_damage has already been declared [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab2.v:40]
+WARNING: [Synth 8-2654] second declaration of pangya_damage ignored [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab2.v:40]
+INFO: [Synth 8-994] pangya_damage is declared here [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab2.v:29]
+WARNING: [Synth 8-2611] redeclaration of ansi port o_state_game is not allowed [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/timer_state.v:33]
+WARNING: [Synth 8-976] o_state_game has already been declared [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/timer_state.v:33]
+WARNING: [Synth 8-2654] second declaration of o_state_game ignored [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/timer_state.v:33]
+INFO: [Synth 8-994] o_state_game is declared here [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/timer_state.v:29]
+WARNING: [Synth 8-992] pangyatab_color is already implicitly declared earlier [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:110]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 401.914 ; gain = 112.379
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:8]
+INFO: [Synth 8-3876] $readmem data file 'pal24bit.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:135]
+INFO: [Synth 8-3876] $readmem data file 'drive356x12_pal24bit.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:136]
+INFO: [Synth 8-3876] $readmem data file 'foam356x12_pal24bit.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:137]
+INFO: [Synth 8-3876] $readmem data file 'porsche356x12_pal24bit.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:138]
+INFO: [Synth 8-3876] $readmem data file 'tien356x12_pal24bit.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:139]
+INFO: [Synth 8-3876] $readmem data file 'jane356x12_pal24bit.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:140]
+INFO: [Synth 8-3876] $readmem data file 'undertale408x53_pal24bit.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:141]
+INFO: [Synth 8-3876] $readmem data file 'press168x12_pal24bit.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:142]
+INFO: [Synth 8-3876] $readmem data file 'heart15_pal24bit.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:143]
+INFO: [Synth 8-6157] synthesizing module 'vga640x480' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/vga640x480.v:9]
+	Parameter HACTIVE bound to: 640 - type: integer 
+	Parameter HBACKPORCH bound to: 48 - type: integer 
+	Parameter HFRONTPORCH bound to: 16 - type: integer 
+	Parameter HSYNC bound to: 96 - type: integer 
+	Parameter HSYNCSTART bound to: 656 - type: integer 
+	Parameter HSYNCEND bound to: 751 - type: integer 
+	Parameter LINEEND bound to: 799 - type: integer 
+	Parameter VACTIVE bound to: 480 - type: integer 
+	Parameter VBACKPORCH bound to: 33 - type: integer 
+	Parameter VFRONTPORCH bound to: 10 - type: integer 
+	Parameter VSYNC bound to: 2 - type: integer 
+	Parameter VSYNCSTART bound to: 513 - type: integer 
+	Parameter VSYNCEND bound to: 514 - type: integer 
+	Parameter SCREENEND bound to: 524 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vga640x480' (1#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/vga640x480.v:9]
+INFO: [Synth 8-6157] synthesizing module 'timer_state' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/timer_state.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'timer_state' (2#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/timer_state.v:23]
+INFO: [Synth 8-6157] synthesizing module 'uart_echo' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/uart_echo.v:13]
+	Parameter STATE_UP bound to: 3'b000 
+	Parameter STATE_DOWN bound to: 3'b001 
+	Parameter STATE_LEFT bound to: 3'b010 
+	Parameter STATE_RIGHT bound to: 3'b011 
+	Parameter STATE_BLACK bound to: 3'b100 
+	Parameter STATE_YELLOW bound to: 3'b111 
+INFO: [Synth 8-6157] synthesizing module 'uart_fifo' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/uart_fifo.v:12]
+INFO: [Synth 8-6157] synthesizing module 'uart' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/uart.v:24]
+	Parameter CLOCK_DIVIDE bound to: 55 - type: integer 
+	Parameter RX_IDLE bound to: 0 - type: integer 
+	Parameter RX_CHECK_START bound to: 1 - type: integer 
+	Parameter RX_READ_BITS bound to: 2 - type: integer 
+	Parameter RX_CHECK_STOP bound to: 3 - type: integer 
+	Parameter RX_DELAY_RESTART bound to: 4 - type: integer 
+	Parameter RX_ERROR bound to: 5 - type: integer 
+	Parameter RX_RECEIVED bound to: 6 - type: integer 
+	Parameter TX_IDLE bound to: 0 - type: integer 
+	Parameter TX_SENDING bound to: 1 - type: integer 
+	Parameter TX_DELAY_RESTART bound to: 2 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/uart.v:120]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/uart.v:210]
+INFO: [Synth 8-6155] done synthesizing module 'uart' (3#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/uart.v:24]
+INFO: [Synth 8-6157] synthesizing module 'fifo' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/fifo.v:11]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_EXP bound to: 3 - type: integer 
+	Parameter ADDR_DEPTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo' (4#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/fifo.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'uart_fifo' (5#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/uart_fifo.v:12]
+WARNING: [Synth 8-6014] Unused sequential element last_color_reg was removed.  [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/uart_echo.v:125]
+INFO: [Synth 8-4471] merging register 'rx_fifo_pop_reg' into 'transmit_reg' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/uart_echo.v:102]
+WARNING: [Synth 8-6014] Unused sequential element rx_fifo_pop_reg was removed.  [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/uart_echo.v:102]
+INFO: [Synth 8-6155] done synthesizing module 'uart_echo' (6#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/uart_echo.v:13]
+INFO: [Synth 8-6157] synthesizing module 'introSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/introSprite.v:23]
+	Parameter TitleWidth bound to: 408 - type: integer 
+	Parameter TitleHeight bound to: 53 - type: integer 
+	Parameter NameWidth bound to: 356 - type: integer 
+	Parameter NameHeight bound to: 12 - type: integer 
+	Parameter PressWidth bound to: 168 - type: integer 
+	Parameter PressHeight bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'introRom' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/introRom.v:23]
+INFO: [Synth 8-5534] Detected attribute (* ROM_STYLE = "block" *) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/introRom.v:29]
+INFO: [Synth 8-3876] $readmem data file 'undertale408x53.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/introRom.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'introRom' (7#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/introRom.v:23]
+INFO: [Synth 8-6157] synthesizing module 'nameRom' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/nameRom.v:23]
+INFO: [Synth 8-5534] Detected attribute (* ROM_STYLE = "block" *) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/nameRom.v:29]
+INFO: [Synth 8-3876] $readmem data file 'tien356x12.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/nameRom.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'nameRom' (8#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/nameRom.v:23]
+INFO: [Synth 8-6157] synthesizing module 'JnameRom' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/JnameRom.v:23]
+INFO: [Synth 8-5534] Detected attribute (* ROM_STYLE = "block" *) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/JnameRom.v:29]
+INFO: [Synth 8-3876] $readmem data file 'jane356x12.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/JnameRom.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'JnameRom' (9#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/JnameRom.v:23]
+INFO: [Synth 8-6157] synthesizing module 'TnameRom' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/TnameRom.v:23]
+INFO: [Synth 8-5534] Detected attribute (* ROM_STYLE = "block" *) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/TnameRom.v:29]
+INFO: [Synth 8-3876] $readmem data file 'drive356x12.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/TnameRom.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'TnameRom' (10#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/TnameRom.v:23]
+INFO: [Synth 8-6157] synthesizing module 'FnameRom' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/FnameRom.v:23]
+INFO: [Synth 8-5534] Detected attribute (* ROM_STYLE = "block" *) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/FnameRom.v:28]
+INFO: [Synth 8-3876] $readmem data file 'foam356x12.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/FnameRom.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'FnameRom' (11#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/FnameRom.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PnameRom' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/PnameRom.v:23]
+INFO: [Synth 8-5534] Detected attribute (* ROM_STYLE = "block" *) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/PnameRom.v:29]
+INFO: [Synth 8-3876] $readmem data file 'porsche356x12.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/PnameRom.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'PnameRom' (12#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/PnameRom.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pressRom' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/pressRom.v:23]
+INFO: [Synth 8-5534] Detected attribute (* ROM_STYLE = "block" *) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/pressRom.v:29]
+INFO: [Synth 8-3876] $readmem data file 'press168x12.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/pressRom.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'pressRom' (13#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/pressRom.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'introSprite' (14#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/intro/introSprite.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'T_dataout' does not match port width (8) of module 'introSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:63]
+WARNING: [Synth 8-689] width (1) of port connection 'CN_dataout' does not match port width (8) of module 'introSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:64]
+WARNING: [Synth 8-689] width (1) of port connection 'JN_dataout' does not match port width (8) of module 'introSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:64]
+WARNING: [Synth 8-689] width (1) of port connection 'TN_dataout' does not match port width (8) of module 'introSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:65]
+WARNING: [Synth 8-689] width (1) of port connection 'FN_dataout' does not match port width (8) of module 'introSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:66]
+WARNING: [Synth 8-689] width (1) of port connection 'PN_dataout' does not match port width (8) of module 'introSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:66]
+WARNING: [Synth 8-689] width (1) of port connection 'Press_dataout' does not match port width (8) of module 'introSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:67]
+WARNING: [Synth 8-350] instance 'introSprite' of module 'introSprite' requires 19 connections, but only 18 given [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:62]
+INFO: [Synth 8-6157] synthesizing module 'HeartSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/HeartSprite.v:23]
+	Parameter HeartWidth bound to: 15 - type: integer 
+	Parameter HeartHeight bound to: 15 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'HeartRom' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/HeartRom.v:23]
+INFO: [Synth 8-5534] Detected attribute (* ROM_STYLE = "block" *) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/HeartRom.v:30]
+INFO: [Synth 8-3876] $readmem data file 'heart15.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/HeartRom.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'HeartRom' (15#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/HeartRom.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/HeartSprite.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'HeartSprite' (16#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/HeartSprite.v:23]
+INFO: [Synth 8-6157] synthesizing module 'character' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/character.v:23]
+	Parameter CharacterWidth bound to: 34 - type: integer 
+	Parameter CharacterHeight bound to: 27 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'BeeRom' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/BeeRom.v:9]
+INFO: [Synth 8-5534] Detected attribute (* ROM_STYLE = "block" *) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/BeeRom.v:15]
+INFO: [Synth 8-3876] $readmem data file 'foam2.mem' is read successfully [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/BeeRom.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'BeeRom' (17#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/BeeRom.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'character' (18#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/character.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BorderSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/BorderSprite.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BorderSprite' (19#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/BorderSprite.v:23]
+INFO: [Synth 8-6157] synthesizing module 'GreenBulletSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/GreenBulletSprite.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'GreenBulletSprite' (20#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/GreenBulletSprite.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BulletSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/BulletSprite.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BulletSprite' (21#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/BulletSprite.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BulletSprite2' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/BulletSprite2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BulletSprite2' (22#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/BulletSprite2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ObstacleSprite' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/Obstacle.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ObstacleSprite' (23#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/Obstacle.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pangya_tab' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pangya_tab' (24#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pangya_tab2' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab2.v:23]
+	Parameter base_damage bound to: 15 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'pangya_tab2' (25#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/pangya_tab2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'hp_bar' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_bar.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'hp_bar' (26#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_bar.v:23]
+INFO: [Synth 8-6157] synthesizing module 'hp_monster_bar' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_monster_bar.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'hp_monster_bar' (27#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/hp_monster_bar.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (28#1) [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:8]
+WARNING: [Synth 8-3331] design hp_monster_bar has unconnected port aactive
+WARNING: [Synth 8-3331] design hp_bar has unconnected port aactive
+WARNING: [Synth 8-3331] design pangya_tab2 has unconnected port aactive
+WARNING: [Synth 8-3331] design pangya_tab has unconnected port aactive
+WARNING: [Synth 8-3331] design ObstacleSprite has unconnected port aactive
+WARNING: [Synth 8-3331] design BulletSprite2 has unconnected port aactive
+WARNING: [Synth 8-3331] design BulletSprite has unconnected port aactive
+WARNING: [Synth 8-3331] design GreenBulletSprite has unconnected port aactive
+WARNING: [Synth 8-3331] design BorderSprite has unconnected port aactive
+WARNING: [Synth 8-3331] design introSprite has unconnected port state[2]
+WARNING: [Synth 8-3331] design introSprite has unconnected port state[1]
+WARNING: [Synth 8-3331] design introSprite has unconnected port state[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 489.242 ; gain = 199.707
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 489.242 ; gain = 199.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 489.242 ; gain = 199.707
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnR'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnR'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS2Clk'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS2Clk'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS2Clk'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS2Data'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS2Data'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS2Data'. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/OS/Desktop/hw_project/hw_project.srcs/constrs_1/imports/new/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 822.723 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 822.723 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 822.723 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 822.723 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 822.723 ; gain = 533.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 822.723 ; gain = 533.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 822.723 ; gain = 533.188
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "rx_countdown0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "memory_reg[0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "memory_reg[1]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "memory_reg[2]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "memory_reg[3]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "memory_reg[4]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "memory_reg[5]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "memory_reg[6]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "memory_reg[7]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tx_byte" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5547] Trying to map ROM "memory_array" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "memory_array" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "memory_array" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "memory_array" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "memory_array" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "memory_array" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "memory_array" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "memory_array" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "memory_array" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-802] inferred FSM for state register 'Bdir_reg' in module 'GreenBulletSprite'
+INFO: [Synth 8-802] inferred FSM for state register 'Bdir_reg' in module 'BulletSprite'
+INFO: [Synth 8-802] inferred FSM for state register 'Bdir_reg' in module 'BulletSprite2'
+INFO: [Synth 8-802] inferred FSM for state register 'Bdir_reg' in module 'ObstacleSprite'
+INFO: [Synth 8-802] inferred FSM for state register 'Bdir_reg' in module 'pangya_tab2'
+INFO: [Synth 8-5544] ROM "Bdir" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "check_onceB1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'collision_onceB1_reg' into 'isCollisionB1_reg' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:389]
+INFO: [Synth 8-4471] merging register 'collision_onceB2_reg' into 'isCollisionB2_reg' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:395]
+INFO: [Synth 8-4471] merging register 'collision_onceGB_reg' into 'isCollisionGB_reg' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:400]
+INFO: [Synth 8-4471] merging register 'collision_onceBig_reg' into 'isCollisionBig_reg' [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/imports/Desktop/basys3/Tut4/WIP.srcs/sources_1/new/Top.v:405]
+INFO: [Synth 8-5544] ROM "isCollisionB1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "isCollisionB1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                                0 |                               01
+*
+                  iSTATE |                                1 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Bdir_reg' using encoding 'sequential' in module 'GreenBulletSprite'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                                0 |                               01
+*
+                  iSTATE |                                1 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Bdir_reg' using encoding 'sequential' in module 'BulletSprite'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                                0 |                               01
+*
+                  iSTATE |                                1 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Bdir_reg' using encoding 'sequential' in module 'BulletSprite2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                                0 |                               01
+*
+                  iSTATE |                                1 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Bdir_reg' using encoding 'sequential' in module 'ObstacleSprite'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                                0 |                               01
+*
+                  iSTATE |                                1 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Bdir_reg' using encoding 'sequential' in module 'pangya_tab2'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 822.723 ; gain = 533.188
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 11    
+	   3 Input     32 Bit       Adders := 5     
+	   2 Input     17 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 5     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 18    
+	   4 Input     10 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 6     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 3     
+	               10 Bit    Registers := 18    
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 28    
+	                6 Bit    Registers := 3     
+	                4 Bit    Registers := 9     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 37    
++---Multipliers : 
+	                32x32  Multipliers := 8     
++---ROMs : 
+	                              ROMs := 9     
++---Muxes : 
+	   4 Input     12 Bit        Muxes := 1     
+	   4 Input     11 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 4     
+	   8 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 8     
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	   4 Input      9 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 3     
+	  10 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 6     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 7     
+	   2 Input      4 Bit        Muxes := 22    
+	   8 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 7     
+	   3 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 73    
+	   4 Input      1 Bit        Muxes := 7     
+	   8 Input      1 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Top 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 9     
+	   7 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module vga640x480 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 3     
+Module timer_state 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 2     
+Module uart 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     11 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 4     
+	   8 Input     11 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   4 Input      6 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 2     
+Module fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 8     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 17    
+Module uart_fifo 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module uart_echo 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	  10 Input      7 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module introRom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module nameRom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module JnameRom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module TnameRom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module FnameRom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module PnameRom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module pressRom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module introSprite 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
+Module HeartRom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module HeartSprite 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	   4 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+Module BeeRom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module character 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module BorderSprite 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module GreenBulletSprite 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module BulletSprite 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module BulletSprite2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module ObstacleSprite 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module pangya_tab 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module pangya_tab2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module hp_bar 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   4 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module hp_monster_bar 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "uart_fifo/rx_fifo/memory_reg[0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/rx_fifo/memory_reg[1]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/rx_fifo/memory_reg[2]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/rx_fifo/memory_reg[3]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/rx_fifo/memory_reg[4]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/rx_fifo/memory_reg[5]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/rx_fifo/memory_reg[6]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/rx_fifo/memory_reg[7]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/tx_fifo/memory_reg[0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/tx_fifo/memory_reg[1]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/tx_fifo/memory_reg[2]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/tx_fifo/memory_reg[3]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/tx_fifo/memory_reg[4]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/tx_fifo/memory_reg[5]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/tx_fifo/memory_reg[6]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_fifo/tx_fifo/memory_reg[7]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "tx_byte" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/GreenBulletSprite.v:46]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/GreenBulletSprite.v:46]
+DSP Report: Generating DSP GreenBulletSpriteOn2, operation Mode is: A*B.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: Generating DSP GreenBulletSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: Generating DSP GreenBulletSpriteOn2, operation Mode is: A*B.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: Generating DSP GreenBulletSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: Generating DSP GreenBulletSpriteOn2, operation Mode is: A*B.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: Generating DSP GreenBulletSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: Generating DSP GreenBulletSpriteOn2, operation Mode is: A*B.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: Generating DSP GreenBulletSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+DSP Report: operator GreenBulletSpriteOn2 is absorbed into DSP GreenBulletSpriteOn2.
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/BulletSprite.v:50]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/BulletSprite.v:50]
+DSP Report: Generating DSP BulletSpriteOn2, operation Mode is: A*B.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: Generating DSP BulletSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: Generating DSP BulletSpriteOn2, operation Mode is: A*B.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: Generating DSP BulletSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: Generating DSP BulletSpriteOn2, operation Mode is: A*B.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: Generating DSP BulletSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: Generating DSP BulletSpriteOn2, operation Mode is: A*B.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: Generating DSP BulletSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+DSP Report: operator BulletSpriteOn2 is absorbed into DSP BulletSpriteOn2.
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/BulletSprite2.v:47]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/BulletSprite2.v:47]
+DSP Report: Generating DSP BulletSpriteOn22, operation Mode is: A*B.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: Generating DSP BulletSpriteOn22, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: Generating DSP BulletSpriteOn22, operation Mode is: A*B.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: Generating DSP BulletSpriteOn22, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: Generating DSP BulletSpriteOn22, operation Mode is: A*B.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: Generating DSP BulletSpriteOn22, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: Generating DSP BulletSpriteOn22, operation Mode is: A*B.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: Generating DSP BulletSpriteOn22, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+DSP Report: operator BulletSpriteOn22 is absorbed into DSP BulletSpriteOn22.
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/Obstacle.v:46]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/OS/Desktop/hw_project/hw_project.srcs/sources_1/new/Obstacle.v:46]
+DSP Report: Generating DSP ObstacleSpriteOn2, operation Mode is: A*B.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: Generating DSP ObstacleSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: Generating DSP ObstacleSpriteOn2, operation Mode is: A*B.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: Generating DSP ObstacleSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: Generating DSP ObstacleSpriteOn2, operation Mode is: A*B.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: Generating DSP ObstacleSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: Generating DSP ObstacleSpriteOn2, operation Mode is: A*B.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: Generating DSP ObstacleSpriteOn2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+DSP Report: operator ObstacleSpriteOn2 is absorbed into DSP ObstacleSpriteOn2.
+WARNING: [Synth 8-3331] design hp_monster_bar has unconnected port aactive
+WARNING: [Synth 8-3331] design hp_bar has unconnected port aactive
+WARNING: [Synth 8-3331] design pangya_tab2 has unconnected port aactive
+WARNING: [Synth 8-3331] design pangya_tab has unconnected port aactive
+WARNING: [Synth 8-3331] design ObstacleSprite has unconnected port aactive
+WARNING: [Synth 8-3331] design BulletSprite2 has unconnected port aactive
+WARNING: [Synth 8-3331] design BulletSprite has unconnected port aactive
+WARNING: [Synth 8-3331] design GreenBulletSprite has unconnected port aactive
+WARNING: [Synth 8-3331] design BorderSprite has unconnected port aactive
+WARNING: [Synth 8-3331] design introSprite has unconnected port state[2]
+WARNING: [Synth 8-3331] design introSprite has unconnected port state[1]
+WARNING: [Synth 8-3331] design introSprite has unconnected port state[0]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uart/\tx_byte_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uart/\tx_byte_reg[5] )
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[7][5]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[7][7]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[6][5]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[6][7]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[5][5]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[5][7]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[4][5]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[4][7]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[3][5]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[3][7]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[2][5]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[2][7]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[1][5]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[1][7]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[0][5]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[0][7]'
+INFO: [Synth 8-3886] merging instance 'uart/tx_byte_reg[4]' (FDR) to 'uart/tx_byte_reg[1]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[7][4]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[7][1]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[6][4]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[6][1]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[5][4]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[5][1]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[4][4]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[4][1]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[3][4]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[3][1]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[2][4]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[2][1]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[1][4]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[1][1]'
+INFO: [Synth 8-3886] merging instance 'uart/uart_fifo/tx_fifo/memory_reg[0][4]' (FDRE) to 'uart/uart_fifo/tx_fifo/memory_reg[0][1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (hp_bar/\stack_damage_reg[0] )
+INFO: [Synth 8-3886] merging instance 'pangya_tab2/pangya_damage_reg[2]' (FDE) to 'pangya_tab2/pangya_damage_reg[3]'
+INFO: [Synth 8-3886] merging instance 'pangya_tab/pangyatab_color_reg[0]' (FD) to 'pangya_tab/pangyatab_color_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pangya_tab/pangyatab_color_reg[1]' (FD) to 'pangya_tab/pangyatab_color_reg[2]'
+INFO: [Synth 8-3886] merging instance 'pangya_tab/pangyatab_color_reg[2]' (FD) to 'pangya_tab/pangyatab_color_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pangya_tab/\pangyatab_color_reg[3] )
+INFO: [Synth 8-3886] merging instance 'pangya_tab/pangyatab_color_reg[4]' (FD) to 'pangya_tab/pangyatab_color_reg[6]'
+INFO: [Synth 8-3886] merging instance 'pangya_tab/pangyatab_color_reg[6]' (FD) to 'pangya_tab/pangyatab_color_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pangya_tab/pangyatab_color_reg[10]' (FD) to 'pangya_tab/pangyatab_color_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uart/\uart_fifo/uart_inst/tx_data_reg[7] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 822.723 ; gain = 533.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
+|Top         | p_0_out    | 256x8         | LUT            | 
++------------+------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping  Report (see note below)
++------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|GreenBulletSprite | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|GreenBulletSprite | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|GreenBulletSprite | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|GreenBulletSprite | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|GreenBulletSprite | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|GreenBulletSprite | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|GreenBulletSprite | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|GreenBulletSprite | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite      | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite      | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite      | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite      | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite      | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite      | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite      | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite      | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite2     | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite2     | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite2     | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite2     | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite2     | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite2     | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite2     | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|BulletSprite2     | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ObstacleSprite    | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ObstacleSprite    | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ObstacleSprite    | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ObstacleSprite    | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ObstacleSprite    | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ObstacleSprite    | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ObstacleSprite    | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ObstacleSprite    | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance introSprite/i_0/IntroVRom/o_data_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/i_1/CNameVRom/o_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/i_2/JNameVRom/o_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/i_3/TNameVRom/o_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/i_4/FNameVRom/o_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/i_5/PNameVRom/o_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/i_6/PressVRom/o_data_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance HeartSprite/i_0/HeartRom/heart_dataout_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance character/i_0/BeeVRom/o_data_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:01:01 . Memory (MB): peak = 887.840 ; gain = 598.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:00 ; elapsed = 00:01:03 . Memory (MB): peak = 914.309 ; gain = 624.773
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance introSprite/IntroVRom/o_data_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/CNameVRom/o_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/JNameVRom/o_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/TNameVRom/o_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/FNameVRom/o_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/PNameVRom/o_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance introSprite/PressVRom/o_data_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance HeartSprite/HeartRom/heart_dataout_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance character/BeeVRom/o_data_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 926.449 ; gain = 636.914
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:05 ; elapsed = 00:01:08 . Memory (MB): peak = 926.449 ; gain = 636.914
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:05 ; elapsed = 00:01:08 . Memory (MB): peak = 926.449 ; gain = 636.914
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 926.449 ; gain = 636.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 926.449 ; gain = 636.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 926.449 ; gain = 636.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 926.449 ; gain = 636.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     2|
+|2     |CARRY4     |   176|
+|3     |DSP48E1    |    24|
+|4     |LUT1       |    38|
+|5     |LUT2       |   472|
+|6     |LUT3       |   110|
+|7     |LUT4       |   154|
+|8     |LUT5       |   177|
+|9     |LUT6       |   450|
+|10    |MUXF7      |    13|
+|11    |MUXF8      |     1|
+|12    |RAMB18E1   |     1|
+|13    |RAMB18E1_1 |     1|
+|14    |RAMB18E1_2 |     1|
+|15    |RAMB36E1   |     1|
+|16    |RAMB36E1_1 |     1|
+|17    |RAMB36E1_2 |     1|
+|18    |RAMB36E1_3 |     1|
+|19    |RAMB36E1_4 |     1|
+|20    |RAMB36E1_5 |     1|
+|21    |FDRE       |   552|
+|22    |FDSE       |    11|
+|23    |IBUF       |     3|
+|24    |OBUF       |    15|
++------+-----------+------+
+
+Report Instance Areas: 
++------+---------------------+------------------+------+
+|      |Instance             |Module            |Cells |
++------+---------------------+------------------+------+
+|1     |top                  |                  |  2207|
+|2     |  BorderDisplay      |BorderSprite      |    12|
+|3     |  BulletDisplay      |BulletSprite      |   142|
+|4     |  BulletDisplay2     |BulletSprite2     |   140|
+|5     |  GreenBulletDisplay |GreenBulletSprite |   141|
+|6     |  HeartSprite        |HeartSprite       |   249|
+|7     |    HeartRom         |HeartRom          |    70|
+|8     |  ObstacleSprite     |ObstacleSprite    |   138|
+|9     |  character          |character         |    98|
+|10    |    BeeVRom          |BeeRom            |    72|
+|11    |  display            |vga640x480        |   316|
+|12    |  hp_bar             |hp_bar            |   103|
+|13    |  hp_monster_bar     |hp_monster_bar    |    50|
+|14    |  introSprite        |introSprite       |   165|
+|15    |    CNameVRom        |nameRom           |     3|
+|16    |    FNameVRom        |FnameRom          |     1|
+|17    |    IntroVRom        |introRom          |     3|
+|18    |    JNameVRom        |JnameRom          |     1|
+|19    |    PNameVRom        |PnameRom          |     1|
+|20    |    PressVRom        |pressRom          |     3|
+|21    |    TNameVRom        |TnameRom          |     3|
+|22    |  pangya_tab         |pangya_tab        |     9|
+|23    |  pangya_tab2        |pangya_tab2       |   109|
+|24    |  timer              |timer_state       |    76|
+|25    |  uart               |uart_echo         |   399|
+|26    |    uart_fifo        |uart_fifo         |   385|
+|27    |      rx_fifo        |fifo              |   131|
+|28    |      tx_fifo        |fifo_0            |    92|
+|29    |      uart_inst      |uart              |   161|
++------+---------------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 926.449 ; gain = 636.914
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:53 ; elapsed = 00:01:01 . Memory (MB): peak = 926.449 ; gain = 303.434
+Synthesis Optimization Complete : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 926.449 ; gain = 636.914
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 223 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 926.449 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+215 Infos, 64 Warnings, 14 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:09 ; elapsed = 00:01:13 . Memory (MB): peak = 926.449 ; gain = 648.984
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 926.449 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/OS/Desktop/hw_project/hw_project.runs/synth_1/Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_utilization_synth.rpt -pb Top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May 31 14:31:16 2020...

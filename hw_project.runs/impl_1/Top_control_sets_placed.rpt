@@ -1,0 +1,139 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun May 31 14:32:16 2020
+| Host         : DESKTOP-1ORCI8A running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    64 |
+| Unused register locations in slices containing registers |   204 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      4 |           10 |
+|      5 |           12 |
+|      6 |            4 |
+|      7 |            3 |
+|      8 |           11 |
+|      9 |            2 |
+|     10 |            9 |
+|     11 |            2 |
+|     13 |            5 |
+|     15 |            2 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              81 |           45 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              41 |           21 |
+| Yes          | No                    | No                     |             140 |           58 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             302 |           88 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-------------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+|  Clock Signal  |                     Enable Signal                     |                   Set/Reset Signal                  | Slice Load Count | Bel Load Count |
++----------------+-------------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+|  PixCLK_BUFG   | display/H_SCAN_reg[0]_2                               | display/H_SCAN_reg[0]_1[0]                          |                1 |              1 |
+|  PixCLK_BUFG   | uart/uart_fifo/uart_inst/tx_out_i_1_n_0               |                                                     |                1 |              1 |
+|  CLK_IBUF_BUFG |                                                       |                                                     |                1 |              4 |
+|  PixCLK_BUFG   | uart/uart_fifo/tx_fifo/accept_write                   | RESET_IBUF                                          |                2 |              4 |
+|  PixCLK_BUFG   | timer/o_state_game_reg[1]_3[0]                        |                                                     |                2 |              4 |
+|  PixCLK_BUFG   | display/H_SCAN_reg[1]_2[0]                            |                                                     |                1 |              4 |
+|  PixCLK_BUFG   | uart/uart_fifo/tx_fifo/accept_read                    | RESET_IBUF                                          |                2 |              4 |
+|  PixCLK_BUFG   | uart/uart_fifo/uart_inst/E[0]                         | RESET_IBUF                                          |                1 |              4 |
+|  PixCLK_BUFG   | uart/uart_fifo/uart_inst/accept_write                 | RESET_IBUF                                          |                1 |              4 |
+|  PixCLK_BUFG   | uart/uart_fifo/uart_inst/rx_bits_remaining[3]_i_1_n_0 |                                                     |                1 |              4 |
+|  PixCLK_BUFG   |                                                       | uart/uart_fifo/uart_inst/tx_countdown[5]_i_1_n_0    |                2 |              4 |
+|  PixCLK_BUFG   |                                                       | RESET_IBUF                                          |                4 |              4 |
+|  PixCLK_BUFG   | uart/uart_fifo/tx_fifo/memory[1][6]_i_1_n_0           | RESET_IBUF                                          |                1 |              5 |
+|  PixCLK_BUFG   | uart/uart_fifo/tx_fifo/memory[2][6]_i_1_n_0           | RESET_IBUF                                          |                1 |              5 |
+|  PixCLK_BUFG   | uart/uart_fifo/tx_fifo/memory[7][6]_i_1_n_0           | RESET_IBUF                                          |                2 |              5 |
+|  PixCLK_BUFG   |                                                       | uart/uart_fifo/tx_fifo/SR[0]                        |                2 |              5 |
+|  PixCLK_BUFG   | uart/uart_fifo/tx_fifo/memory[4][6]_i_1_n_0           | RESET_IBUF                                          |                1 |              5 |
+|  PixCLK_BUFG   | pangya_tab2/pangya_damage0__0                         |                                                     |                3 |              5 |
+|  PixCLK_BUFG   |                                                       | uart/uart_fifo/uart_inst/tx_clk_divider[5]_i_1_n_0  |                2 |              5 |
+|  PixCLK_BUFG   |                                                       | uart/uart_fifo/uart_inst/rx_clk_divider[5]_i_1_n_0  |                3 |              5 |
+|  PixCLK_BUFG   | uart/uart_fifo/tx_fifo/memory[6][6]_i_1_n_0           | RESET_IBUF                                          |                1 |              5 |
+|  PixCLK_BUFG   | uart/uart_fifo/tx_fifo/memory[5][6]_i_1_n_0           | RESET_IBUF                                          |                1 |              5 |
+|  PixCLK_BUFG   | uart/uart_fifo/tx_fifo/memory[3][6]_i_1_n_0           | RESET_IBUF                                          |                1 |              5 |
+|  PixCLK_BUFG   | uart/uart_fifo/tx_fifo/memory[0][6]_i_1_n_0           | RESET_IBUF                                          |                1 |              5 |
+|  PixCLK_BUFG   |                                                       | uart/uart_fifo/uart_inst/rx_clk_divider[10]_i_1_n_0 |                2 |              6 |
+|  PixCLK_BUFG   |                                                       | uart/uart_fifo/uart_inst/tx_clk_divider[10]_i_1_n_0 |                2 |              6 |
+|  PixCLK_BUFG   |                                                       | uart/uart_fifo/uart_inst/rx_countdown[5]_i_1_n_0    |                4 |              6 |
+|  PixCLK_BUFG   | display/H_SCAN_reg[1]_2[0]                            | pangya_tab2/B1X                                     |                2 |              6 |
+|  PixCLK_BUFG   | display/H_SCAN_reg[0]_2                               | BulletDisplay/B1X                                   |                2 |              7 |
+|  PixCLK_BUFG   | display/H_SCAN_reg[0]_2                               | GreenBulletDisplay/B1X                              |                2 |              7 |
+|  PixCLK_BUFG   | display/H_SCAN_reg[0]_2                               | ObstacleSprite/B1Y                                  |                2 |              7 |
+|  PixCLK_BUFG   | uart/uart_fifo/rx_fifo/memory[1][7]_i_1_n_0           | RESET_IBUF                                          |                2 |              8 |
+|  PixCLK_BUFG   | HeartSprite/address                                   | HeartSprite/address[7]_i_1_n_0                      |                2 |              8 |
+|  PixCLK_BUFG   | uart/uart_fifo/rx_fifo/memory[4][7]_i_1_n_0           | RESET_IBUF                                          |                3 |              8 |
+|  PixCLK_BUFG   | timer/E[0]                                            | timer/SR[0]                                         |                5 |              8 |
+|  PixCLK_BUFG   | uart/uart_fifo/rx_fifo/memory[3][7]_i_1_n_0           | RESET_IBUF                                          |                1 |              8 |
+|  PixCLK_BUFG   | uart/uart_fifo/rx_fifo/memory[6][7]_i_1_n_0           | RESET_IBUF                                          |                3 |              8 |
+|  PixCLK_BUFG   | uart/uart_fifo/rx_fifo/memory[2][7]_i_1_n_0           | RESET_IBUF                                          |                1 |              8 |
+|  PixCLK_BUFG   | uart/uart_fifo/rx_fifo/memory[7][7]_i_1_n_0           | RESET_IBUF                                          |                3 |              8 |
+|  PixCLK_BUFG   | uart/uart_fifo/uart_inst/rx_data[7]_i_1_n_0           |                                                     |                1 |              8 |
+|  PixCLK_BUFG   | uart/uart_fifo/rx_fifo/memory[0][7]_i_1_n_0           | RESET_IBUF                                          |                2 |              8 |
+|  PixCLK_BUFG   | uart/uart_fifo/rx_fifo/memory[5][7]_i_1_n_0           | RESET_IBUF                                          |                2 |              8 |
+|  PixCLK_BUFG   | HeartSprite/HeartY[8]_i_1_n_0                         |                                                     |                5 |              9 |
+|  PixCLK_BUFG   | display/active                                        |                                                     |                8 |              9 |
+|  CLK_IBUF_BUFG | display/V_SCAN[9]_i_1_n_0                             |                                                     |                4 |             10 |
+|  CLK_IBUF_BUFG | PixCLK_BUFG                                           | display/H_SCAN                                      |                5 |             10 |
+|  PixCLK_BUFG   | BulletDisplay/B1X                                     |                                                     |                3 |             10 |
+|  PixCLK_BUFG   | GreenBulletDisplay/B1X                                |                                                     |                3 |             10 |
+|  PixCLK_BUFG   | HeartSprite/HeartX[9]_i_1_n_0                         |                                                     |                6 |             10 |
+|  PixCLK_BUFG   | ObstacleSprite/B1Y                                    |                                                     |                3 |             10 |
+|  PixCLK_BUFG   | pangya_tab2/B1X                                       |                                                     |                3 |             10 |
+|  PixCLK_BUFG   | display/H_SCAN_reg[8]_1[0]                            | display/H_SCAN_reg[1]_1[0]                          |                2 |             10 |
+|  PixCLK_BUFG   | display/H_SCAN_reg[0]_1[0]                            |                                                     |                3 |             10 |
+|  PixCLK_BUFG   | display/E[0]                                          | display/SR[0]                                       |                2 |             11 |
+|  PixCLK_BUFG   | uart/uart_fifo/uart_inst/tx_bits_remaining            |                                                     |                4 |             11 |
+|  PixCLK_BUFG   | display/FN_address                                    | display/V_SCAN_reg[7]_0                             |                4 |             13 |
+|  PixCLK_BUFG   | display/JN_address                                    | display/V_SCAN_reg[5]_0                             |                4 |             13 |
+|  PixCLK_BUFG   | display/CN_address                                    | display/V_SCAN_reg[4]_0                             |                4 |             13 |
+|  PixCLK_BUFG   | display/TN_address                                    | display/V_SCAN_reg[0]_0                             |                4 |             13 |
+|  PixCLK_BUFG   | display/PN_address                                    | display/V_SCAN_reg[0]_1                             |                4 |             13 |
+|  PixCLK_BUFG   | display/H_SCAN_reg[0]_2                               |                                                     |                7 |             15 |
+|  PixCLK_BUFG   | display/T_address                                     | display/H_SCAN_reg[7]_0                             |                4 |             15 |
+|  PixCLK_BUFG   | timer/counter                                         | timer/counter[0]_i_1_n_0                            |                7 |             27 |
+|  PixCLK_BUFG   |                                                       |                                                     |               44 |             77 |
++----------------+-------------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+
+
