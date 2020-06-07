@@ -1,0 +1,64 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 05/27/2020 12:47:00 PM
+// Design Name: 
+// Module Name: hp_monster_bar
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module hp_monster_bar(
+    
+    input wire [9:0] xx, 
+    input wire [9:0] yy, 
+    input wire aactive,
+    input wire [6:0] pangya_damage,
+    output reg monster_alive,
+    output reg hp_monster_barOn, 
+    input wire attack,
+    input wire Pclk 
+    );
+    reg [9:0] stack_damage  = 0;
+    reg monster_alive = 1;
+    always @(posedge Pclk)
+        begin
+            if(attack == 1)
+            begin
+            
+            stack_damage = stack_damage+pangya_damage;
+            end
+            
+            if (((xx>50 && xx<200-stack_damage) && (yy>420 && yy<430)))
+                begin
+                hp_monster_barOn <= 1;
+                end
+            else
+                begin
+                hp_monster_barOn <= 0;
+                end
+        end
+    always @(posedge Pclk)
+        begin
+        if(stack_damage >= 150)
+                    begin
+                        monster_alive =0;
+                    end
+        else
+        begin
+            monster_alive =1;
+        end
+        end
+endmodule
